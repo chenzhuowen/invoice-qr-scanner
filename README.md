@@ -14,15 +14,7 @@
 
 ## Installation
 
-### Option 1: Download from GitHub Release
-
-1. Download the .skill file from the [latest release](https://github.com/chenzhuowen/invoice-qr-scanner/releases/tag/v1.0.0)
-2. Use ClawHub to install:
-   ```bash
-   clawhub install invoice-qr-scanner
-   ```
-
-### Option 2: Clone Repository
+克隆GitHub仓库即可使用：
 
 ```bash
 git clone https://github.com/chenzhuowen/invoice-qr-scanner.git
@@ -37,6 +29,7 @@ cd invoice-qr-scanner
 - 浏览器自动化工具
 
 ### NPM Dependencies
+
 ```bash
 npm install qrcode-reader canvas
 ```
@@ -85,13 +78,15 @@ node scan-qr.js /path/to/receipt.jpg
 - Company name（公司名称）
 - Tax ID（税号）
 - Address（地址）
-- Phone（电话）
+- Phone number（电话）
 - Bank name（开户行）
-- Bank account（银行账号）
+- Bank account number（银行账号）
 
 **联系信息：**
 - Mobile phone numbers（手机号）
 - Email addresses（邮箱）
+
+当填写表单时，skill会自动从MEMORY.md读取这些信息。
 
 ## Workflow
 
@@ -192,5 +187,9 @@ Created for OpenClaw - 2026-03-03
 
 ## Support
 
-For issues or questions, please refer to the OpenClaw documentation at:
+For issues or questions, please refer to OpenClaw documentation at:
 https://docs.openclaw.ai
+
+## Repository
+
+GitHub Repository: https://github.com/chenzhuowen/invoice-qr-scanner
