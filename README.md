@@ -12,6 +12,23 @@
 - ✅ **完整流程**：从识别到提交的完整开票流程
 - ✅ **错误处理**：清晰的异常处理和备选方案
 
+## Installation
+
+### Option 1: Download from GitHub Release
+
+1. Download the .skill file from the [latest release](https://github.com/chenzhuowen/invoice-qr-scanner/releases/tag/v1.0.0)
+2. Use ClawHub to install:
+   ```bash
+   clawhub install invoice-qr-scanner
+   ```
+
+### Option 2: Clone Repository
+
+```bash
+git clone https://github.com/chenzhuowen/invoice-qr-scanner.git
+cd invoice-qr-scanner
+```
+
 ## Requirements
 
 ### System Requirements
